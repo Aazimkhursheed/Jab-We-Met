@@ -124,3 +124,12 @@ To get video and audio running directly between two browsers without sending the
 3. **SDP Exchange**: Existing clients initiate an `RTCPeerConnection` and emit a WebRTC `offer` through sockets. The new user receives the offer, sets it as their remote description, generates a WebRTC `answer`, and sends it back.
 4. **ICE Candidate Exchange**: As both browsers look up their network routes via public STUN servers (`stun.l.google.com`), they exchange `ice` candidates through the socket server.
 5. **Streaming**: Once the routes match, the media tracks are connected directly peer-to-peer.
+
+## 👨‍💻 Author
+
+### Aazim Khursheed
+
+- GitHub: https://github.com/Aazimkhursheed
+- LinkedIn: https://linkedin.com/in/aazim-khursheed-203304294
+
+---
